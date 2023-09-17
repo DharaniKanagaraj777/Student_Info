@@ -1,0 +1,38 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Student Details</title>
+        <style>
+            table, th, td {
+              border:1px solid black;
+            }
+        </style>
+    </head>
+    <body bgcolor="yellow">
+        {% block content %}
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Address</th>
+                <th>Gender</th>
+                
+            </tr>
+            <tr>
+                <td>Dharani</td>
+                <td>Kanagaraj</td>
+                <td>Cbe</td>
+                <td>Female</td>
+             
+            </tr>
+            <tr>
+                <td>Geetha</td>
+                <td>Priya</td>
+                <td>Annur</td>
+                <td>Female</td>
+   
+            </tr>
+        </table>
+    {% endblock %}
+    </body>
+</html>
